@@ -1,0 +1,135 @@
+User: What is the company's leave policy?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: What are the company benefits?
+Bot: We offer health insurance, performance bonuses, flexible working hours, and gym reimbursements.
+
+User: How can I improve employee engagement?
+Bot: Improve engagement by conducting regular feedback sessions, recognizing achievements, and organizing team-building activities.
+
+User: How do I apply for maternity leave?
+Bot: To apply for maternity leave, submit your leave request through the HR portal at least two weeks in advance.
+
+User: How do I escalate an HR-related concern?
+Bot: You can escalate concerns to your HR business partner or use the anonymous feedback form available on the HR portal.
+
+User: Tell me a joke
+Bot: Why don’t scientists trust atoms? Because they make up everything!
+
+User: My name is Himanshu
+Bot: Nice to meet you, Himanshu!
+
+User: What's my name?
+Bot: Your name is Himanshu.
+
+User: How do I build a rocket?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+
+User: What is the company's leave policy?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: What are the company benefits?
+Bot: We offer health insurance, performance bonuses, flexible working hours, and gym reimbursements.
+
+User: What is the process for performance reviews?
+Bot: Performance reviews are conducted semi-annually, with 360-degree feedback and clear goal setting for the next review period.
+
+User: Does the company provide training and development opportunities?
+Bot: Yes, we provide training programs, access to online learning platforms, and reimbursements for relevant certifications.
+
+User: What is the process for resigning from the company?
+Bot: Submit a formal resignation letter to your manager and HR, followed by serving the notice period as per your contract.
+
+User: Tell me a joke
+Bot: Why don’t scientists trust atoms? Because they make up everything!
+
+User: My name is Himanshu.
+Bot: Nice to meet you, Himanshu.!
+
+User: What's my name?
+Bot: Your name is Himanshu..
+
+User: How do I build a rocket?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+
+User: What is the company's leave policy?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: What are the company benefits?
+Bot: We offer health insurance, performance bonuses, flexible working hours, and gym reimbursements.
+
+User: What is the process for performance reviews?
+Bot: Performance reviews are conducted semi-annually, with 360-degree feedback and clear goal setting for the next review period.
+
+User: What is the process for resigning from the company?
+Bot: Submit a formal resignation letter to your manager and HR, followed by serving the notice period as per your contract.
+
+User: How do I apply for maternity leave?
+Bot: To apply for maternity leave, submit your leave request through the HR portal at least two weeks in advance.
+
+User: Tell me a joke.
+Bot: Tell me a joke.jpeg
+
+User: Tell me a joke
+Bot: Why don’t scientists trust atoms? Because they make up everything!
+
+User: What is your name?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+
+User: My name is Himanshu
+Bot: Nice to meet you, Himanshu!
+
+User: What's my name?
+Bot: Your name is Himanshu.
+
+User: What is the meaning of life?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: How do I build a rocket?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+
+User: What is the company's leave policy?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: What are the company benefits?
+Bot: We offer health insurance, performance bonuses, flexible working hours, and gym reimbursements.
+
+User: What is the process for performance reviews?
+Bot: Performance reviews are conducted semi-annually, with 360-degree feedback and clear goal setting for the next review period.
+
+User: How do I apply for maternity leave?
+Bot: To apply for maternity leave, submit your leave request through the HR portal at least two weeks in advance.
+
+User: My name is Himanshu.
+Bot: Nice to meet you, Himanshu.!
+
+User: What's my name?
+Bot: Your name is Himanshu..
+
+User: What is the meaning of life?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: What is the meaning of life?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: How do I build a rocket?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+
+User: How do I build a rocket?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+
+User: What are the company benefits?
+Bot: We offer health insurance, performance bonuses, flexible working hours, and gym reimbursements.
+
+User: How do I build a rocket?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+
+User: How do I apply for maternity leave?
+Bot: To apply for maternity leave, submit your leave request through the HR portal at least two weeks in advance.
+
+User: What is the process for resigning from the company?
+Bot: Submit a formal resignation letter to your manager and HR, followed by serving the notice period as per your contract.
+
+User: Does the company provide relocation assistance?
+Bot: Yes, we offer relocation assistance, including moving expenses and temporary accommodation for eligible employees.
+

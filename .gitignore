@@ -1,1 +1,45 @@
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
 venv/
+.env/
+
+# Environment variables and credentials
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+*.err
+
+# Heroku files
+*.pid
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+*.coverage
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .chatbox {
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .chatbox h2 {
+            text-align: center;
+            color: #333;
+        }
+        .chat {
+            margin: 10px 0;
+        }
+        .user {
+            text-align: right;
+            color: blue;
+        }
+        .bot {
+            text-align: left;
+            color: green;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="chatbox">
+        <h2>HR Chatbot</h2>
+        <div id="chat-container"></div>
+        <input id="user-input" type="text" placeholder="Type your message..." autocomplete="off">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <script>
+        function sendMessage() {
+            const userInput = document.getElementById("user-input").value;
+
+            if (userInput.trim() === "") {
+                return; // Do nothing if input is empty
+            }
+
+            const chatContainer = document.getElementById("chat-container");
+            chatContainer.innerHTML += `<div class="chat user"><b>You:</b> ${userInput}</div>`;
+
+            fetch('/get_response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_input: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                chatContainer.innerHTML += `<div class="chat bot"><b>Bot:</b> ${data.response}</div>`;
+                document.getElementById("user-input").value = ""; // Clear input field
+            })
+            .catch(error => {
+                chatContainer.innerHTML += `<div class="chat bot"><b>Bot:</b> Sorry, something went wrong.</div>`;
+                console.error("Error:", error);
+            });
+        }
+    </script>
+</body>
+</html>
