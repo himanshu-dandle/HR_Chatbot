@@ -1,6 +1,6 @@
 flask
 gunicorn
+torch==2.0.1+cpu
 transformers
-torch
 pandas
 nltk
