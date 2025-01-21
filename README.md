@@ -102,6 +102,18 @@ These tools and libraries collectively contribute to the chatbot's ability to pr
 			docker push us-docker.pkg.dev/potent-app-448404-d3/hr-chatbot-repo/hr-chatbot
 	4.Deploy on Google Cloud Run:
 	   Deploy the container to Cloud Run via the GCP Console or CLI.
+	   
+## Visual Demonstrations
+
+		### Docker Build Process
+		![Docker Build](assets/docker build1.png)
+
+		### Docker Run Process
+		![Docker Run](assets/docker_run.png)
+
+		### Chatbot UI in Action
+		![Chatbot UI](assets/chatbot_ui_test.png)
+
 
 
 
