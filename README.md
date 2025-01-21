@@ -26,6 +26,8 @@ These tools and libraries collectively contribute to the chatbot's ability to pr
 - [Usage](#usage)
 - [Docker Deployment](#docker-deployment)
 - [Google Cloud Deployment](#google-cloud-deployment)
+- [Visual Demonstrations](#visual-demonstrations)
+- [Challenges Faced](#challenges-faced)
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
 - [License](#license)
@@ -103,18 +105,29 @@ These tools and libraries collectively contribute to the chatbot's ability to pr
 	4.Deploy on Google Cloud Run:
 	   Deploy the container to Cloud Run via the GCP Console or CLI.
 	   
+
 ## Visual Demonstrations
 
-		### Docker Build Process
-		![Docker Build](assets/docker build1.png)
+### Docker Build Process
+![Docker Build](assets/docker_build1.png)
 
-		### Docker Run Process
-		![Docker Run](assets/docker_run.png)
+### Docker Run Process
+![Docker Run](assets/docker_run.png)
 
-		### Chatbot UI in Action
-		![Chatbot UI](assets/chatbot_ui_test.png)
+### Chatbot UI in Action
+![Chatbot UI](assets/chatbot_ui_test.png)
 
 
+
+##Challenges Faced
+
+	1.Memory Constraints in Dockerized ApplicationChallenge: While testing the chatbot in a Dockerized environment, the application occasionally crashed due to insufficient memory allocation.Solution: Optimized the application by reducing unnecessary memory usage, adjusting worker processes in Gunicorn, and ensuring efficient resource utilization.
+
+	2.Docker Authentication with Google Cloud Artifact RegistryChallenge: Faced difficulties authenticating Docker with the Google Cloud Artifact Registry during deployment.Solution: Resolved the issue by reconfiguring the gcloud CLI, ensuring proper roles and permissions, and recreating the .docker/config.json file for seamless authentication.
+
+	3.Chatbot Response AccuracyChallenge: The chatbot occasionally provided irrelevant or generic responses.Solution: Improved the response quality by fine-tuning the pre-trained model and implementing fallback mechanisms to handle unsupported queries gracefully.
+
+	4.Cloud Deployment ConfigurationChallenge: Encountered issues while configuring deployment pipelines for Cloud Run due to misconfigured environment variables.Solution: Debugged the deployment scripts, ensured environment variables were correctly set, and tested configurations locally before deploying to the cloud.
 
 
 ## Future Improvements
