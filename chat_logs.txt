@@ -133,3 +133,42 @@ Bot: Submit a formal resignation letter to your manager and HR, followed by serv
 User: Does the company provide relocation assistance?
 Bot: Yes, we offer relocation assistance, including moving expenses and temporary accommodation for eligible employees.
 
+User: What is the company's leave policy?
+Bot: Our leave policy includes 20 paid leaves per year, 10 public holidays, and flexible sick leave options.
+
+User: How do I apply for maternity leave?
+Bot: To apply for maternity leave, submit your leave request through the HR portal at least two weeks in advance.
+
+User: Does the company provide training and development opportunities?
+Bot: Yes, we provide training programs, access to online learning platforms, and reimbursements for relevant certifications.
+
+User: What is the process for performance reviews?
+Bot: Performance reviews are conducted semi-annually, with 360-degree feedback and clear goal setting for the next review period.
+
+User: How do I escalate an HR-related concern?
+Bot: You can escalate concerns to your HR business partner or use the anonymous feedback form available on the HR portal.
+
+User: What is the company policy on remote work?
+Bot: We offer a hybrid work model with three days of remote work per week and fully remote options for eligible roles.
+
+User: What are the company benefits?
+Bot: We offer health insurance, performance bonuses, flexible working hours, and gym reimbursements.
+
+User: Does the company provide relocation assistance?
+Bot: Yes, we offer relocation assistance, including moving expenses and temporary accommodation for eligible employees.
+
+User: My name is  himanshu
+Bot: Nice to meet you, himanshu!
+
+User: What's my name?
+Bot: Your name is himanshu.
+
+User: Tell me a joke.
+Bot: Tell me a joke.jpg
+
+User: Make me laugh.
+Bot: Make me laugh.I'm laughing at my own expense.
+
+User: How do I build a rocket?
+Bot: I'm sorry, I don't have an answer for that right now. Could you please clarify or ask something else?
+

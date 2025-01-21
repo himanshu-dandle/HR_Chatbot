@@ -6,23 +6,14 @@ This project leverages advanced natural language processing (NLP) techniques to 
 ## Tools and Libraries Used
 
 - **Python**: The core programming language used for developing the chatbot, chosen for its extensive ecosystem and support for AI development.
-
 - **Transformers (Hugging Face)**: Utilized for implementing the pre-trained language model, enabling the chatbot to understand and generate human-like text.
-
 - **PyTorch**: Serves as the backend framework for the Transformers library, facilitating efficient model computations.
-
-- **NLTK (Natural Language Toolkit)**: Employed for text preprocessing tasks such as tokenization and stop-word removal, essential for preparing input data for the model.
-
-- **OpenAI API**: Integrated to enhance the chatbot's conversational capabilities, allowing for more dynamic and contextually relevant responses.
-
+- **NLTK (Natural Language Toolkit)**: Employed for text preprocessing tasks such as tokenization and stop-word removal.
 - **Flask**: A lightweight web framework used to create a local server for handling user interactions with the chatbot.
-
-- **SQLite**: A lightweight database system used to store user information and chat history, enabling personalized interactions and context retention.
-
-- **Docker**: Utilized for containerizing the application, ensuring consistent environments across different deployment platforms.
-
+- **SQLite**: A lightweight database system used to store user information and chat history.
+- **Docker**: Used for containerizing the application, ensuring consistent environments across different platforms.
+- **Google Cloud Platform (GCP)**: Used for hosting and managing the chatbot through Google Cloud Artifact Registry and Cloud Run.
 - **Git**: Version control system used for tracking changes and collaborating during the development process.
-
 - **Jupyter Notebook**: Assisted in prototyping and experimenting with different models and preprocessing techniques during the development phase.
 
 These tools and libraries collectively contribute to the chatbot's ability to process natural language inputs, manage conversations, and provide accurate HR-related information to users.
@@ -33,9 +24,10 @@ These tools and libraries collectively contribute to the chatbot's ability to pr
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Docker Deployment](#docker-deployment)
+- [Google Cloud Deployment](#google-cloud-deployment)
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
-- [Steps to Integrate OpenAI's API](#steps to Integrate OpenAI's API)
 - [License](#license)
 - [Contact](#contact)
 
@@ -81,6 +73,37 @@ These tools and libraries collectively contribute to the chatbot's ability to pr
 		Provide your name: "My name is [Your Name]."
 		Inquire about remembered details: "What is my name?
 		
+## Docker Deployment
+
+
+	1. Build the Docker Image:
+				docker build --no-cache -t hr-chatbot .
+	2. Run the Container:
+				docker run -p 8080:8080 hr-chatbot
+	3. Access the chatbot at http://localhost:8080.
+
+## Google Cloud Deployment
+
+	1.Set Up Google Cloud Artifact Registry:
+		a) Create a Docker repository
+		
+			gcloud artifacts repositories create hr-chatbot-repo \
+			--repository-format=docker \
+			--location=us \
+			--description="Docker repository for HR Chatbot"
+			
+	2.Authenticate Docker with GCP
+		gcloud auth configure-docker us-docker.pkg.dev
+		
+	3.Build and Push the Docker Image:
+		a) Build:
+			docker build --no-cache -t us-docker.pkg.dev/potent-app-448404-d3/hr-chatbot-repo/hr-chatbot .
+		b) Push
+			docker push us-docker.pkg.dev/potent-app-448404-d3/hr-chatbot-repo/hr-chatbot
+	4.Deploy on Google Cloud Run:
+	   Deploy the container to Cloud Run via the GCP Console or CLI.
+
+
 
 ## Future Improvements
 
