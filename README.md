@@ -109,7 +109,7 @@ These tools and libraries collectively contribute to the chatbot's ability to pr
 ## Visual Demonstrations
 
 ### Docker Build Process
-![Docker Build](assets/docker_build1.png)
+![Docker Build](assets/docker build1.png.png)
 
 ### Docker Run Process
 ![Docker Run](assets/docker_run.png)
